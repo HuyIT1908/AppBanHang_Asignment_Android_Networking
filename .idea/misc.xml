@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ky_6/android_networking/asignment/AppBanHang/app/src/main/res/layout/activity_chi_tiet_spactivity.xml" value="0.22554347826086957" />
+        <entry key="..\:/ky_6/android_networking/asignment/AppBanHang/app/src/main/res/layout/activity_dssan_pham.xml" value="0.2346014492753623" />
+        <entry key="..\:/ky_6/android_networking/asignment/AppBanHang/app/src/main/res/layout/activity_main.xml" value="0.23867753623188406" />
+        <entry key="..\:/ky_6/android_networking/asignment/AppBanHang/app/src/main/res/layout/activity_sign_up.xml" value="0.2210144927536232" />
+        <entry key="..\:/ky_6/android_networking/asignment/AppBanHang/app/src/main/res/layout/add_sp.xml" value="0.22554347826086957" />
+        <entry key="..\:/ky_6/android_networking/asignment/AppBanHang/app/src/main/res/layout/item_sp.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
