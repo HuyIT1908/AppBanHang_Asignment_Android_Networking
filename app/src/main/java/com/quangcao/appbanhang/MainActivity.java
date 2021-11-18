@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 //                    Toast.LENGTH_SHORT).show();
 
         }
-        //luu lai toan bo
+        // Lưu lại toàn bộ
         if (edit.commit()) {
 //            Toast.makeText(getApplicationContext(), "Lưu tài khoản thành công",
 //                    Toast.LENGTH_SHORT).show();
