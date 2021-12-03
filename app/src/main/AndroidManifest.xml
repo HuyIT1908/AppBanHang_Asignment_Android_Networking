@@ -3,6 +3,7 @@
     package="com.quangcao.appbanhang">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,14 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppBanHang">
         <activity
+            android:screenOrientation="portrait"
             android:name=".Activity.SignUpActivity"
             android:exported="true" />
         <activity
+            android:screenOrientation="portrait"
             android:name=".Activity.ChiTietSPActivity"
             android:exported="true" />
         <activity
             android:name=".Activity.DSSanPhamActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

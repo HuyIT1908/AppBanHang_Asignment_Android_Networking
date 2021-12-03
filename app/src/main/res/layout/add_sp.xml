@@ -36,7 +36,7 @@
         <EditText
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/edt_add_ten_SP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -46,17 +46,17 @@
         <EditText
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/edt_add_gia_SP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:hint="Giá Sản pHẩm" />
 
         <EditText
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/edt_add_soLuong_SP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -66,22 +66,44 @@
         <EditText
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:id="@+id/editTextTextPersonName6"
+            android:id="@+id/edt_add_moTa_SP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="Mô Tả" />
 
-        <Button
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:id="@+id/btn_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:gravity="center"
-            android:text="Thêm"
-            android:textAllCaps="false" />
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Thêm"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_add_huy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Hủy"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

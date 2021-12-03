@@ -21,10 +21,11 @@
             android:layout_height="100dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
-            android:background="@color/purple_200"
-            tools:srcCompat="@drawable/filter_goods_item_label_product_icon" />
+
+            android:src="@drawable/shopify_shopping_ecommerce_icon" />
 
         <TextView
+            android:textSize="24dp"
             android:id="@+id/tv_tenSP_CT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:textSize="18dp"
             android:id="@+id/tv_giaSP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,15 +53,31 @@
         android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
 
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/tv_CT_so_luong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            />
+
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/tv_CT_mo_ta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            />
+
         <Button
             android:id="@+id/button4"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="update_DATA"

@@ -40,24 +40,61 @@
             android:hint="Nhập Tài Khoản"
             />
 
-        <EditText
-            android:layout_marginBottom="10dp"
-            android:id="@+id/edt_dk_mk"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Nhập Mật Khấu" />
+            >
 
-        <EditText
-            android:layout_marginBottom="10dp"
-            android:id="@+id/edt_lai_mk"
+            <EditText
+                android:layout_marginBottom="10dp"
+                android:id="@+id/edt_dk_mk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Nhập Mật Khấu" />
+
+            <ImageView
+                android:id="@+id/show_pass_btn_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+
+                android:onClick="ShowHidePass_2"
+
+                android:src="@drawable/eye_off_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Nhập Lại Mật Khấu" />
+            >
 
+            <EditText
+                android:layout_marginBottom="10dp"
+                android:id="@+id/edt_lai_mk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Nhập Lại Mật Khấu" />
+
+            <ImageView
+                android:id="@+id/show_pass_btn_3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+
+                android:onClick="ShowHidePass_3"
+
+                android:src="@drawable/eye_off_icon" />
+        </RelativeLayout>
 
         <Button
             android:id="@+id/button"
